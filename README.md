@@ -22,6 +22,9 @@
 ```sh
 - Install Node.js
 - Choose a text editor of your choice
+
+- Install Studio3D
+- In Studio3D Connect to url: mongodb://fusiondms:fusiondms@ds129146.mlab.com:29146/db_fusiondms
 ```
 
 **2 -** Clone the project and install the dependencies:
@@ -29,6 +32,7 @@
 ```sh
 $ git clone https://JohnsonMauro@bitbucket.org/JohnsonMauro/api-fusiondms.git
 $ cd api-fusiondms
+$ npm install
 ```
 
 ## Versioning
