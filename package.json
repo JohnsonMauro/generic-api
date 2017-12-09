@@ -1,0 +1,31 @@
+{
+  "name": "api-fusion",
+  "version": "1.0.0",
+  "description": "Api FusionDMS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JohnsonMauro@bitbucket.org/JohnsonMauro/api-fusiondms.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Nodejs",
+    "FusionDMS"
+  ],
+  "author": "Johnson Mauro <johnsonmauro@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/JohnsonMauro/api-fusiondms#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongoose": "^4.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
