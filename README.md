@@ -1,5 +1,7 @@
 # Aprendendo sobre API's
 
+![API](images/api-icon.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > Repositório criado para o aprendizado de api's no ecossistema JavaScript
