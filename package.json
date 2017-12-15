@@ -1,25 +1,27 @@
 {
-  "name": "api-fusion",
+  "name": "generic-api",
   "version": "1.0.0",
-  "description": "Api FusionDMS",
+  "description": "Generic API in the javascript ecosystem",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./bin/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://JohnsonMauro@bitbucket.org/JohnsonMauro/api-fusiondms.git"
+    "url": "git+https://github.com/JohnsonMauro/generic-api.git"
   },
   "keywords": [
     "Javascript",
     "Nodejs",
-    "FusionDMS"
+    "Express",
+    "Cors"
   ],
   "author": "Johnson Mauro <johnsonmauro@gmail.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/JohnsonMauro/api-fusiondms#readme",
+  "homepage": "https://github.com/JohnsonMauro/generic-api.git#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "debug": "^3.1.0",
     "express": "^4.16.2",
     "http": "0.0.0",

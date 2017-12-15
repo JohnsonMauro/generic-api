@@ -8,7 +8,7 @@ const express = require('express'),
 const app = express();
 
 // Connect MongoDB
-mongoose.connect('mongodb://fusiondms:fusiondms@ds129146.mlab.com:29146/db_fusiondms');
+mongoose.connect('mongodb://db_generic_api:admin@ds141796.mlab.com:41796/db_generic_api');
 
 //Carrega os Models
 const BooksModel = require('./models/books-model');
