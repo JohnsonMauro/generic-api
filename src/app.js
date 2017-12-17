@@ -3,14 +3,15 @@
 const express = require('express'),
  bodyParser = require('body-parser'),
  mongoose = require('mongoose'),
- cors = require('cors');
+ cors = require('cors'),
+ config = require('./config');
 
 const app = express();
 
 app.use(cors());
 
 // Connect MongoDB
-mongoose.connect('mongodb://db_generic_api:admin@ds141796.mlab.com:41796/db_generic_api');
+mongoose.connect(config.connectionString);
 
 //Carrega os Models
 const BooksModel = require('./models/books-model');
