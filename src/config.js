@@ -1,4 +1,4 @@
-global.SALT_KEY = '';
+global.SALT_KEY = '8e7c37a4-2eff-422f-a372-9b7befc6e6d9'; //generate GUID
 global.EMAIL_TMPL = '<strong>{0}</strong>';
 
 module.exports = {
